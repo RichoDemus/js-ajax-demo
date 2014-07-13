@@ -17,22 +17,22 @@ public class ApiServlet extends HttpServlet
 
 	private final static String API_RESPONSE =
 			"{\n" +
-			"  \"applications\":\n" + "" +
-			"  [\n" +
-			"    {\n" +
-			"      \"name\": \"Goggle Maps\",\n" +
-			"      \"space\": \"10 KB\"\n" +
-			"    },\n" +
-			"    {\n" +
-			"      \"name\": \"Happy Birds\",\n" +
-			"      \"space\": \"20 MB\"\n" +
-			"    },\n" +
-			"    {\n" +
-			"      \"name\": \"Vegetable Samurai\",\n" +
-			"      \"space\": \"100 MB\"\n" +
-			"    }\n" +
-			"  ]\n" +
-			"}";
+					"  \"applications\":\n" + "" +
+					"  [\n" +
+					"    {\n" +
+					"      \"name\": \"Goggle Maps\",\n" +
+					"      \"space\": \"10 KB\"\n" +
+					"    },\n" +
+					"    {\n" +
+					"      \"name\": \"Happy Birds\",\n" +
+					"      \"space\": \"20 MB\"\n" +
+					"    },\n" +
+					"    {\n" +
+					"      \"name\": \"Vegetable Samurai\",\n" +
+					"      \"space\": \"100 MB\"\n" +
+					"    }\n" +
+					"  ]\n" +
+					"}";
 
 	@Override
 	public void init() throws ServletException
